@@ -785,7 +785,7 @@ def redeem_command(message):
         save_keys(keys)
         save_users(users)
 
-        bot.send_message(chat_id, "*Key redeemed successfully!*", parse_mode='Markdown')
+        bot.send_message(chat_id, "*✅Key redeemed successfully!*", parse_mode='Markdown')
     else:
         if key in redeemed_keys:
             bot.send_message(chat_id, "*This key has already been redeemed!*", parse_mode='Markdown')
