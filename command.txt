@@ -1,0 +1,15 @@
+gcc bgmi.c -o bgmi -lpthread -static
+
+pip install telebot
+
+python3 N.py
+
+pip install python
+
+python smokie.py
+
+pip install flask
+
+python N.py
+
+python3 N.py
